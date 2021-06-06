@@ -1,9 +1,67 @@
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-main h1{
-    color: #212121;
-    text-align: center;
-}
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Black.otf);
+  }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-BlackOblique.otf);
+  }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Book.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-BookOblique.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Heavy.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-HeavyOblique.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Light.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-LightOblique.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Medium.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-MediumOblique.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Oblique.otf);
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(https://gogracious.in/fonts/AvenirLTStd-Roman.otf);
+  }
+  body{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  section h1{
+      font-family:myFirstFont,sans serif;
+      color: #212121;
+      text-align: center;
+  }
